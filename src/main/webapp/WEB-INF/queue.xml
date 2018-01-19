@@ -101,14 +101,14 @@
         </retry-parameters>
     </queue>
 
-    <queue>
+<!--     <queue>
         <name>student-course-join-email-queue</name>
-        <!-- Configuration allows for 5 student course join emails to be queued when the bucket is not full -->
-        <rate>5/s</rate>
+         Configuration allows for 5 student course join emails to be queued when the bucket is not full 
+         <rate>5/s</rate>
         <bucket-size>20</bucket-size>
         <retry-parameters>
             <task-retry-limit>2</task-retry-limit>
         </retry-parameters>
-    </queue>
+    </queue> -->
 
 </queue-entries>

@@ -10,6 +10,7 @@ body {
     cursor: pointer;
 }
 
+
 /*
 Apply to alert to override Bootstrap's default 3d alerts
 */
@@ -24,6 +25,12 @@ Apply to alert to override Bootstrap's default 3d alerts
 .alert-danger {
     background-image: none;
 }
+
+hr.style10 {
+    border-top: 1px dotted #8c8b8b;
+    border-bottom: 1px dotted #fff;
+}
+
 
 .align-center {
     text-align: center;
